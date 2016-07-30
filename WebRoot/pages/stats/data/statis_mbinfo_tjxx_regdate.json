@@ -1,0 +1,39 @@
+﻿[
+{
+    "id":0,
+    "value":"*",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[
+	{
+		"id":1,
+	    "value":"null-17",
+		"text":"18岁以下",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":2,
+	    "value":"18-22",
+		"text":"18岁-22岁",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":3,
+	    "value":"23-26",
+		"text":"23岁-26岁",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":4,
+	    "value":"27-35",
+		"text":"27岁-35岁",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":5,
+	    "value":"36-55",
+		"text":"36岁-55岁",  
+		"iconCls":"no-icon"
+	}]
+}
+]

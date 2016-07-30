@@ -1,0 +1,33 @@
+{
+ "name": "flare",
+ "children": [  
+  {
+   "name": "data",
+	"children":[
+	    {"name": "DirtySprite", "size": 8}
+	]
+  },
+ {"name":"ysl","size":7},
+  {
+   "name": "animate",
+   "children": 
+   [
+    {"name": "Easing", "size": 10}
+   ]
+  },
+  {"name":"sss",
+  	"children":[
+  	    {"name":"ssss1","size":4}
+  	]
+  },
+  {"name":"hhh",
+  "children":[
+  	    {"name":"hhh1","size":7}
+  	]
+	},
+  {"name":"rrr",
+  "children":[
+  	    {"name":"rrr1","size":6}
+  	]}
+ ]
+}

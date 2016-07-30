@@ -1,0 +1,59 @@
+{
+    "name":"用户喜好",
+    "children":[
+        {
+            "name":"体育",
+            "children":[
+                {
+                    "name":"台球",
+                    "size":8
+                }
+                
+            ]
+        },
+        {
+            "name":"游戏",
+            "size":7
+        },
+        {
+            "name":"汽车",
+            "children":[
+                {
+                    "name":"奥迪",
+                    "size":10
+                }
+            ]
+        },
+        {
+            "name":"财经",
+            "children":[
+                {
+                    "name":"股票",
+                    "size":4
+                }
+                
+            ]
+        },
+        {
+            "name":"娱乐",
+            "children":[
+                {
+                    "name":"明星",
+                    "size":1
+                }
+                
+            ]
+            
+        },
+        {
+            "name":"视频",
+            "children":[
+                {
+                    "name":"电影",
+                    "size":6
+                }
+                
+            ]
+        }
+    ]
+}

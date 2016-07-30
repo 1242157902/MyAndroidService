@@ -1,0 +1,61 @@
+﻿.search{
+float:right;
+z-index:9999;
+width:200px;
+margin-top:6px;
+margin-right:4px;
+overflow:hidden;
+border:1px solid #bbbbbb;
+background:#fff;
+border-radius:13px;
+}
+
+.keywords{
+float:left;
+width:160px;
+margin:7px;
+color:#cbcaca;
+outline:none;
+border:none;
+height:15px;
+font:14px Microsoft Yahei;}
+
+.go{
+float:left;
+width:20px;;
+border:none;
+background:#fff url(../img/ico-search.png) center center no-repeat;
+cursor:pointer;
+margin-top:6px;
+height:20px;
+background-size:19px 19.5px;
+}
+
+
+.list-app { overflow:hidden; position:relative;}
+.list-app li { padding:12px 0; margin:0 12px; position:relative; border-top:1px solid #e6e6e6;}
+.list-app li:first-child { border-top:0;}
+.list-app .pic { display:block; width:56px; height:56px; float:left;}
+.list-app .pic img { border-radius:10%;}
+.list-app .txt { display:block; margin-left:66px; font-size:14px;}
+.list-app .info { display:block; font-size:10px; color:#b3b3b3;}
+.list-app .info .mod-point0 { display:inline-block;}
+
+.list-app .txt .tit { display:block; margin-right:66px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;color:#000;}
+.list-app .intro { display:block; color:#7f7f7f; font-size:12px; margin-right:66px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.list-app .mod-btn { display:block; width:58px; position:absolute; right:0; top:28px;height:100%;padding-top:26px;}
+.list-app .mod-btn .btn-install { display:block; width:56px; height:28px; border:1px solid #006fe8; margin:auto; font-size:15px; color:#006fe8; text-align:center; line-height:28px; font-family:"Simsun", Arial, sans-serif; background:#fff; border-radius:3px;}
+.list-app .mod-btn .btn-install:hover,
+.list-app .mod-btn .btn-install:active { background:#f8f8f8;}
+
+.list-app .mod-btn .btn-official { display:none; margin:auto; font-size:10px; color:#b3b3b3; line-height:22px; text-align:center;}
+
+.list-app .mod-btn-official { top:0;}
+.list-app .mod-btn-official .btn-official { display:block;}
+
+.topbar { height:44px;background:#006fe8;overflow:hidden;}
+
+.btn-more { display:block; margin:16px 12px 0; text-align:center; color:#999; border:1px solid #ccc; line-height:26px; border-radius:3px;}
+.btn-more:hover,btn-more:active { background:#f8f8f8;}
+
+

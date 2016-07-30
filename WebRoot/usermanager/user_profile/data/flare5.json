@@ -1,0 +1,24 @@
+{
+ "name": "时间段偏好",
+ "children": [  
+  {
+   "name": "午间型",
+   "children": 
+   [
+    {"name": "午间型", "size": 14}
+   ]
+  },
+  {"name":"傍晚型",
+  	"children":[
+  	    {"name":"傍晚型","size":7}
+  	]
+  },
+  {
+   "name": "夜间型",
+   "children": 
+   [
+    {"name": "夜间型", "size": 20}
+   ]
+  } 
+ ]
+}

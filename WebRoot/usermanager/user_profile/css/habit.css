@@ -1,0 +1,113 @@
+#content{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+#map_title{
+	height:15%;
+	width:100%;
+	margin-top:40px;
+	margin-left:50px; 
+}
+#show{
+	height:85%;
+	width:100%; 
+}
+#total{
+	width:100%;
+	height:200px;
+}
+#total_show{
+	height:150px; 
+	width:40%;
+	margin-top:50px;
+	margin-left:80px;
+	float:left;
+}
+#total_show img{
+	float:left;
+	width:64px;
+	height:64px;
+}
+ul{
+	font-size:16px;
+	font-weight:bold;
+	
+}
+li{
+	list-style-type:none;
+}
+#total_dur{
+	width:40%;
+	margin-top:50px; 
+	margin-left:100px;
+	float:left;
+}
+#total_dur img{
+	float:left;
+	width:64px;
+	height:64px;
+}
+.dt{
+	float: left;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	color: #666;
+	font-weight: bold;
+	border-left: 5px solid #ff6600;
+	padding-left: 8px; 
+}
+#times{
+	width:100%;
+	height:300px;
+}
+.minispan{
+	color:greeen
+}
+.list{
+	float:left;
+}
+.list li{
+	float:left;
+	width:31px;
+	height:31px;
+	padding-left: 11px;
+	background: url(../habit/images/clo_b2.jpg) no-repeat;
+}
+.list .on{
+	background: url(../habit/images/clo_b1.jpg) no-repeat;
+}
+.list1{
+	float:left;
+}
+.list1 li{ 
+	width: 28px;
+	height: 28px;
+	float: left;
+	padding-left: 11px;
+	background: url(../habit/images/time_img_bg.jpg) no-repeat 0 -28px;
+}
+.list1 .on{
+	background: url(../habit/images/time_img_bg.jpg) no-repeat 0 0;
+}
+/*********基础信息basicInfo*************/
+
+#show_sex,#show_age{
+	width:100%;
+	height:800px;
+}
+#sex,#age,#dis{
+	height:250px;
+	width:100%;
+}
+#sex_operator,#age_operator,#dis_operator{
+	height:550px;
+	width:40%;
+	float:left;
+}
+#sex_mobile,#age_mobile,#dis_mobile{
+	height:550px;
+	margin-left:20px;
+	width:45%;
+	float:left;
+}

@@ -1,0 +1,24 @@
+{
+ "name": "位置偏好",
+ "children": [  
+  {
+   "name": "北京市",
+	"children":[
+	    {"name": "北方工业大学", "size": 8},
+	    {"name": "金鼎大学生公寓", "size": 16}
+	]
+  },
+  {
+   "name": "海淀区",
+   "children": 
+   [
+    {"name": "颐和园", "size": 3}
+   ]
+  },
+  {"name":"朝阳区",
+  	"children":[
+  	    {"name":"朝阳公园","size":2}
+  	]
+  } 
+ ]
+}

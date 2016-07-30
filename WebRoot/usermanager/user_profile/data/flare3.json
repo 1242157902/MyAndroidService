@@ -1,0 +1,36 @@
+{
+ "name": "App偏好",
+ "children": [  
+  {
+   "name": "社交通讯",
+	"children":[
+	    {"name": "聊天", "size": 20}
+	]
+  },
+  {
+   "name": "理财购物",
+   "children": 
+   [
+    {"name": "网购", "size": 16}
+   ]
+  },
+  {"name":"生活实用",
+  	"children":[
+  	    {"name":"美食","size":14},
+  	    {"name":"娱乐","size":13}
+  	]
+  } ,
+  {"name":"影音播放",
+  	"children":[
+  	    {"name":"音乐","size":10},
+  	    {"name":"视频","size":11}
+  	]
+  } ,
+  {"name":"旅游出行",
+  	"children":[
+  	    {"name":"旅行攻略","size":4},
+  	    {"name":"导航地图","size":6}
+  	]
+  } 
+ ]
+}

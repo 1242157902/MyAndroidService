@@ -1,0 +1,30 @@
+{
+ "name": "时长偏好",
+ "children": [  
+  {
+   "name": "良好习惯",
+	"children":[
+	    {"name": "0-2", "size": 38}
+	]
+  },
+  {
+   "name": "轻度沉迷",
+   "children": 
+   [
+    {"name": "2-4", "size": 45}
+   ]
+  },
+  {"name":"中度沉迷",
+  	"children":[
+  	    {"name":"4-6","size":13}
+  	]
+  },
+  {
+   "name": "高度沉迷",
+   "children": 
+   [
+    {"name": "6以上", "size": 4}
+   ]
+  } 
+ ]
+}

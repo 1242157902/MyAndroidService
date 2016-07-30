@@ -1,0 +1,39 @@
+[
+{
+    "id":0,
+    "value":"*",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[
+	{
+		"id":1,
+	    "value":"null-25",
+		"text":"90后",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":2,
+	    "value":"26-30",
+		"text":"85后",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":3,
+	    "value":"31-35",
+		"text":"80后",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":4,
+	    "value":"36-40",
+		"text":"75后",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":5,
+	    "value":"41-null",
+		"text":"75前",  
+		"iconCls":"no-icon"
+	}]
+}
+]

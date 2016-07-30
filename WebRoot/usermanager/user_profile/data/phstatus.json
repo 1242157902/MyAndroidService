@@ -1,0 +1,24 @@
+[
+{
+    "id":0,
+    "value":"*",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[
+	{
+	"id":1,
+    "value":"0",
+	"text":"未推送",  
+	"iconCls":"no-icon"
+	}
+	,
+	{
+		"id":2,
+	    "value":"1",
+		"text":"已推送",
+		"iconCls":"no-icon"
+	}]
+}
+]	
+	
+			

@@ -1,0 +1,23 @@
+[
+{
+    "id":0,
+    "value":"*",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[
+	    {
+			"id":"1-1",
+			"value":"0",
+			"text":"主题模式",  
+			"iconCls":"no-icon"
+		},
+		{
+			"id":"1-2",
+		    "value":"1",
+			"text":"解锁模式",  
+			"iconCls":"no-icon"
+		}
+	 ]
+}
+]
+			

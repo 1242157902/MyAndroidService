@@ -1,0 +1,22 @@
+[
+{
+      "id": 1,
+      "icon": "mzl_002.png",
+      "title":"Bob",
+      "num": 11,
+      "size": 100,
+      "tip":"社交类",
+      "memo":"blalallalalafffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "apkurl":"http://demo.mycodes.net/shouji/boai/"
+},
+{
+      "id": 2,
+      "icon": "mzl_004.png",
+      "title":"Bob",
+      "num": 11,
+      "size": 100,
+      "tip":"工具类",
+      "memo":"blalallalala",
+      "apkurl":"http://demo.mycodes.net/shouji/boai/"
+}
+]

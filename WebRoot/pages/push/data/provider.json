@@ -1,0 +1,27 @@
+[{
+    "id":0,
+    "value":"*",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[
+	{
+		"id":1,
+	    "value":"1",
+		"text":"中国移动",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":2,
+	    "value":"2",
+		"text":"中国联通",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":3,
+	    "value":"3",
+		"text":"中国电信",  
+		"iconCls":"no-icon"
+	}]
+}
+]
+			

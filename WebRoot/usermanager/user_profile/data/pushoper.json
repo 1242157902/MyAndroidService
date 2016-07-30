@@ -1,0 +1,21 @@
+[
+{
+    "id":0,
+    "value":"*",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[{
+		"id":"1-1",
+		"value":"1",
+		"text":"推送",  
+		"iconCls":"no-icon"
+		},
+		{
+			"id":"1-2",
+		    "value":"2",
+			"text":"取消",  
+			"iconCls":"no-icon"
+		}]
+}
+]
+			
