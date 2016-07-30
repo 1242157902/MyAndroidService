@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<job-scheduling-data xmlns="http://www.quartz-scheduler.org/xml/JobSchedulingData"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.quartz-scheduler.org/xml/JobSchedulingData http://www.quartz-scheduler.org/xml/job_scheduling_data_1_8.xsd"
+  version="1.8"> 
+    <schedule>
+    <!--用户滑屏信息及积分统计任务 -->
+        <job>
+            <name>SlideinfoAndPointsCountJob</name>
+            <group>YiHua_JOB_GROUP</group>
+            <description>用户滑屏信息及积分统计任务</description>
+            <job-class>cn.ncut.autotask.count.CountJob</job-class>
+        </job>
+        <trigger>
+            <cron>
+                <name>SlideinfoAndPointsCountJob_trigger</name>
+                <group>YiHua_TRIGGER_GROUP</group>
+                <job-name>SlideinfoAndPointsCountJob</job-name>
+                <job-group>YiHua_JOB_GROUP</job-group>
+               <cron-expression>30 00 00 * * ?</cron-expression> 
+            <!-- 隔5分钟执行一次  <cron-expression>0 */5 * * * ?</cron-expression> -->
+		  </cron>
+        </trigger>
+        
+      <!--根据地理位置变化自动推送相关任务（HJF）-->
+        
+         <job>
+            <name>AutoPushByLocation</name>
+            <group>YiHua_JOB_GROUP</group>
+            <description>根据地理位置变化自动推送相关信息</description>
+            <job-class>cn.ncut.autotask.push.AutoPushByLocationJob</job-class>
+        </job> 
+         <trigger>
+            <cron>
+                <name>AutoPushByLocation_trigger</name>
+                <group>YiHua_TRIGGER_GROUP</group>
+                <job-name>AutoPushByLocation</job-name>
+                <job-group>YiHua_JOB_GROUP</job-group>
+
+               <cron-expression>0 0 0/1 * * ?</cron-expression> 
+
+         
+		  </cron>
+        </trigger> 
+         <job>
+            <name>AutoPushByPrefer</name>
+            <group>YiHua_JOB_GROUP</group>
+            <description>根据偏好自动推送相关信息</description>
+            <job-class>cn.ncut.autotask.push.AutoPushByPrefer</job-class>
+        </job> 
+         <trigger>
+            <cron>
+                <name>AutoPushByPrefer</name>
+                <group>YiHua_TRIGGER_GROUP</group>
+                <job-name>AutoPushByPrefer</job-name>
+                <job-group>YiHua_JOB_GROUP</job-group>
+
+               <cron-expression>0 0 12 * * ?</cron-expression> 
+
+         
+		  </cron>
+        </trigger> 
+        <!-- 统计用户维度数据 -->
+         <job>
+            <name>CountProfileJob</name>
+            <group>YiHua_JOB_GROUP</group>
+            <description>用户滑屏信息及积分统计任务</description>
+            <job-class>cn.ncut.autotask.countProfile.CountJob</job-class>
+        </job>
+        <trigger>
+            <cron>
+                <name>CountProfileJob</name>
+                <group>YiHua_TRIGGER_GROUP</group>
+                <job-name>CountProfileJob</job-name>
+                <job-group>YiHua_JOB_GROUP</job-group>
+               <cron-expression>30 00 00 * * ?</cron-expression> 
+            <!-- 隔5分钟执行一次  <cron-expression>0 */5 * * * ?</cron-expression> -->
+		  </cron>
+        </trigger>
+    </schedule>
+    
+</job-scheduling-data>
