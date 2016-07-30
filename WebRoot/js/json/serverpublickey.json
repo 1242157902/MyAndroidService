@@ -1,0 +1,22 @@
+[
+{
+    "id":0,
+    "value":"-5",
+	"text":"全部",
+	"iconCls":"no-icon",
+	"children":[
+	{
+		"id":1,
+	    "value":"0",
+		"text":"已更新",  
+		"iconCls":"no-icon"
+	},
+	{
+		"id":2,
+	    "value":"1",
+		"text":"未更新",  
+		"iconCls":"no-icon"
+	}
+	]
+}
+]
